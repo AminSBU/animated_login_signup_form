@@ -24,7 +24,23 @@ function Login()
 
                 <div className="register">
                     <form action="#">
-                        
+                        <h1>Register</h1>
+                        <div className="input-box">
+                            <input type="text" placeholder="username" required></input>
+                            <i className="bx bxs-user"></i>
+                        </div>
+                        <div className="input-box">
+                            <input type="text" placeholder="emain" required></input>
+                            <i className="bx bxs-envelope"></i>
+                        </div>
+                        <div className="input-box">
+                            <input type="password" placeholder="password" required></input>
+                            <i className="bx bxs-lock-alt"></i>
+                        </div>
+                        <div className="forget-link">
+                            <a href="#">forget password?</a>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
                     </form>
                 </div>
 
